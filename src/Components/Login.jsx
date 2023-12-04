@@ -56,7 +56,7 @@ const Login = () => {
             <img className='h-60 w-90 ' src='https://cdn.pixabay.com/photo/2017/08/22/11/55/linked-in-2668692_1280.png' alt='Error'/>
             </div>
             <div >
-            <form className='w-52'>
+            <form className='w-56'>
                 <input value={name} onChange={e => setName(e.target.value)} className='inline-block w-80 p-2 border-2 border-black m-2 rounded-xl text-center' type='text' placeholder='Full name'/>
                 <input value={profile} onChange={e => setProfile(e.target.value)} className='inline-block w-80 p-2 border-2 border-black m-2 rounded-xl text-center' type='text' placeholder='Profile pic URL (optional)'/>
                 <input value={email} onChange={e => setEmail(e.target.value)} className='inline-block w-80 p-2 border-2 border-black m-2 rounded-xl text-center' type='email' placeholder='Email'/>

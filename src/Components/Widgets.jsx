@@ -16,7 +16,7 @@ const Widgets = () => {
   return (
     <>
       <div className="grid justify-end mr-[10%]">
-        <div className="-mt-[35rem] mr-8">
+        <div className="fixed -mt-[62rem]  right-0 mr-[200px]">
           <h1 className="border-2 border-black p-4 rounded">
             LinkedIn News <InfoIcon />
           </h1>

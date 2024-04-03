@@ -15,7 +15,7 @@ const SideBar = () => {
   )
   return (
     <>
-      <div className="grid grid-col sticky top-[80px] w-[30%] text-center">
+      <div className="grid grid-col sticky top-[100px] w-[30%] text-center">
         <div className=" rounded-xl  text-center  border-gray-300">
           <img
             className="mb-[-20px] rounded-xl max-h-32 ml-12"
